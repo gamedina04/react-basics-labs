@@ -47,7 +47,18 @@ div {
 
 .priority {
   font-weight: bold;
-  color: red;
+}
+
+.priorityLow {
+  background-color: green;
+}
+
+.priorityMedium {
+  background-color: yellow;
+}
+
+.priorityHigh {
+  background-color: red;
 }
 
 button {
@@ -103,4 +114,14 @@ form {
   text-align: left;
   width: 50%;
   margin: auto;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
