@@ -120,7 +120,9 @@ function App() {
           py: 6,
         }}
       >
-        <Grid container justifyContent="center">
+        <Grid container sx={{
+          justifyContent: "center"
+        }}>
           <AddTaskForm
             submit={formSubmitHandler}
             change={formChangeHandler}
@@ -128,7 +130,6 @@ function App() {
         </Grid>
       </Container>
       {/* End Footer */}
-
     </div>
   );
 }
