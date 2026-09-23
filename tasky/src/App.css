@@ -4,7 +4,7 @@ body {
   font-weight: 400;
 }
 
-h1 {
+/* h1 {
   text-align: center;
   background-color: grey;
   color: white;
@@ -12,17 +12,17 @@ h1 {
   margin: 8px 0;
   border: none;
   border-radius: 4px;
-}
+} */
 
-div {
+/*div {
   padding: 20px;
-}
+}*/
 
-.container{
+/*.container{
   text-align: center;
-}
+}*/
 
-.card {
+/*.card {
   display: inline-block;
   vertical-align: top;
   font-family: system-ui;
@@ -34,16 +34,16 @@ div {
   margin: 10px;
   padding: 10px;
   position: relative;
-}
+}*/
 
-.title {
+/*.title {
   font-weight: bold;
-  font-size: 1.2em; 
-}
+  font-size: 1.2em;
+}*/
 
-.description {
-  font-style:italic;
-}
+/*.description {
+  font-style: italic;
+}*/
 
 .priority {
   font-weight: bold;
@@ -61,7 +61,7 @@ div {
   background-color: red;
 }
 
-button {
+/*button {
   border: none;
   border-radius: 3px;
   font-style: italic;
@@ -83,9 +83,10 @@ button {
   bottom: 5px;
   right: 5px;
   color: red;
-}
+}*/
 
-input[type=text], input[type=date] {
+/*input[type=text],
+input[type=date] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -114,7 +115,7 @@ form {
   text-align: left;
   width: 50%;
   margin: auto;
-}
+}*/
 
 select {
   width: 100%;
